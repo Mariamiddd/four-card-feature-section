@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F2F2F2;
+
+}
+header{
+    margin: 0 auto;
+    max-width: 500px;
+    text-align: center;
+    color: #4D4F62;
+}
+.main-h1{
+    font-size: 36px;
+    font-weight: 275;
+    letter-spacing: 0.25px;
+}
+.main-h2{
+   font-size: 36px;
+   font-weight: 600;
+   letter-spacing: 0.25px;
+
+}
+p{
+   font-size: 15px;
+   font-weight: 400;
+   letter-spacing: 0.1041666641831398px;
+   line-height: 25px;
+   letter-spacing: 0.25px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.box{
+    background-color: white;
+    box-shadow: 0px 15px 30px -11px #83A6D280;
+    padding: 30px;
+    max-width: 350px;
+    border-radius: 8px;
+    margin: 10px;
+}
+.box:hover{
+    cursor: pointer;
+}
+.box h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: #4D4F62;
+}
+.box p{
+    max-width: 35ch;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.0902777761220932px;
+    color: #4D4F62;
+}
+.box img{
+    display: block;
+    margin-left: auto;
+    width: 50px;
+}
+.box1{
+    border-top: solid 4px #44D3D2;
+}
+.box2{
+    border-top: solid 4px #EA5454;
+
+}
+.box3{
+    border-top: solid 4px #FCAE4A;
+}
+.box4{
+    border-top: solid 4px #549EF2;
+
+}
+@media only screen and (min-width: 1401px) {
+
+.movedown{
+    transform: translateY(50%);
+}
+}
+@media only screen and (max-width: 1400px) {
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 25px;
+    }
+    .box{
+        height: 222px;
+        width: 311px;
+        border-radius: 8px;
+        margin-top: 10px;
+    }
+    .box1 {
+        order: 1;
+      }
+      
+      .box2 {
+        order: 2;
+      }
+      
+      .box3 {
+        order: 3;
+      }
+      
+      .box4 {
+        order: 4;
+      }
+    }
